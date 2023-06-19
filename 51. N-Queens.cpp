@@ -40,7 +40,7 @@ public:
         // 3 3 4 5 6 7
         // 4 4 5 6 7 8
           
-        vector<int>upperCol(n, 0),upperDiagonal(2*n - 1, 0),lowerDiagonal(2*n - 1, 0);
+        vector<int>upperRow(n, 0),upperDiagonal(2*n - 1, 0),lowerDiagonal(2*n - 1, 0);
         solve(n, 0, ans, temp, upperCol, upperDiagonal, lowerDiagonal);
         return ans;
     }
